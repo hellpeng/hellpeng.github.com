@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Hello World!
-tagline: MAC
+title: 树叶飘风
+tagline: Front
 ---
 {% include JB/setup %}
 
-shou ye
+首页内容
 
