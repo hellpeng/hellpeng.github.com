@@ -19,3 +19,13 @@
 $ git commit -m "Add new content"
 $ git push origin master
 </code></pre>
+
+**文章嵌入视频**
+> 需要将tudou.rb/youku.rb脚本拷贝到_plugins目录下
+<pre><code>优酷视频
+{% youku XNjUyOTQ3NzE2 %}
+{% youku XNjUyOTQ3NzE2 500 500%}
+土豆视频
+{% tudou 8p6gpToUHi0 %}
+{% tudou 8p6gpToUHi0 500 500%}
+</code></pre>
