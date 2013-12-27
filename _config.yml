@@ -9,12 +9,12 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Hellpeng's 博客
-tagline: Site Tagline
+tagline: 树叶飘风
 author :
   name : Hellpeng
   email : hellpeng@163.com
   github : hellpeng
-  twitter : username
+  twitter : hellpeng
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed

@@ -43,12 +43,8 @@ comments: true
 > Mac上目前觉得好用的Ftp上传工具。
 
 * [Iterm2](http://www.iterm2.com/#/section/home)
-> #####好用的终端工具
-> 谁用谁知道。
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-> ##### 好用的Shell 
-> 谁用谁知道。
 
 
 

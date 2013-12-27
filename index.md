@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 树叶飘风
+title: 
 tagline: Front
 ---
 {% include JB/setup %}
 
-首页内容
+New blog
 
