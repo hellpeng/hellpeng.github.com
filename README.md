@@ -29,3 +29,19 @@ $ git push origin master
 {% tudou 8p6gpToUHi0 %}
 {% tudou 8p6gpToUHi0 500 500%}
 </code></pre>
+
+**通过pygments使代码高亮**
+> 需要在配置文件_config.yml设置参数: pygments: true
+<pre><code>生成pygments.css样式文件
+cd path_to_project
+pygmentize -f html -S default > pygments.css
+然后在_layout模板中引用该样式文件
+</code></pre>
+<pre><code> {% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+</code></pre>
+highlight参数: ruby , objc
+

@@ -46,8 +46,6 @@ comments: true
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-![Mou icon](http://mouapp.com/Mou_128.png)
-
 
 
 
