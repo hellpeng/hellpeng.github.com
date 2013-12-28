@@ -3,14 +3,12 @@ layout: page
 tagline: 
 ---
 {% include JB/setup %}
-
 <div>
   	<ul class="post_ul">
 	  {% for post in paginator.posts %}
     	<li><a href="{{ post.url}}" title="{{ post.title }}">{{ post.title | truncatewords:10 }}</a><span>{{ post.date | date:"%Y-%m-%d" }}</span></li>{% endfor %}
 	</ul>
 </div>
-
 <div>
 	<ul class="page_ul">
 		{% if paginator.previous_page %}
@@ -21,10 +19,8 @@ tagline:
 		{% endif %}
 	</ul>
 </div>
-
 <style type="text/css">
 	.post_ul li span{padding-right:420px;float:right;}
-	/* li 不换行，宽度根据内容自适应，通过 display:inline 实现 */  
     .page_ul {list-style:none; margin:0px; padding:0px; text-align:center;}  
     .page_ul li {display:inline;margin: 0px 1px 1px 0px;}  
 </style>  
