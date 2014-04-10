@@ -120,5 +120,5 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
 
-  # Use kramdown to interpreter markdown 
-  markdown: kramdown
+  # Use kramdown to interpreter markdown
+markdown: kramdown
